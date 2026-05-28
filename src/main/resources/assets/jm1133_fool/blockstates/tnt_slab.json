@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "jm1133_fool:block/tnt_slab"
+    },
+    "type=double": {
+      "model": "jm1133_fool:block/tnt_double_slab"
+    },
+    "type=top": {
+      "model": "jm1133_fool:block/tnt_slab_top"
+    }
+  }
+}

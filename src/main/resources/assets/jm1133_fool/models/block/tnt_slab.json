@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "jm1133_fool:block/tnt_bottom",
+    "side": "jm1133_fool:block/tnt_side",
+    "top": "jm1133_fool:block/tnt_top"
+  }
+}

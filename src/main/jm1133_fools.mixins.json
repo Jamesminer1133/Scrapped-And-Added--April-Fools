@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.jm1133.scrappedfools.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "CreativeModeInventoryScreenMixin",
+    "AbstractContainerScreenAccessor",
+    "ItemPickerMenuMixin",
+    "CreativeModeTabMixin",
+    "PauseScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

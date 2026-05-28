@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "jm1133_fool:block/tnt_side",
+    "top": "jm1133_fool:block/tnt_top",
+    "bottom": "jm1133_fool:block/tnt_bottom",
+    "particle": "jm1133_fool:block/tnt_side"
+  }
+}

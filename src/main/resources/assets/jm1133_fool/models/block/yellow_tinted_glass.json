@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "render_type": "translucent",
+  "textures": {
+    "all": "jm1133_fool:block/yellow_tinted_glass"
+  }
+}
