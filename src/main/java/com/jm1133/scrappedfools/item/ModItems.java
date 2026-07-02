@@ -11,7 +11,7 @@ import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class ModItems {
-    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(ScrappedAddedAprilFools.MODID);
+    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems("minecraft");
 
     public static final DeferredItem<Item> REDSTONE_BUG_SPAWN_EGG = ITEMS.register("redstone_bug_spawn_egg",
             () -> new DeferredSpawnEggItem(ModEntities.REDSTONEBUG, 0xa80100, 0xff4343,

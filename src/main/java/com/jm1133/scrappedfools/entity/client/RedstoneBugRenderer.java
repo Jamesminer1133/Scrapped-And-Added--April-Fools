@@ -25,6 +25,6 @@ public class RedstoneBugRenderer extends MobRenderer<RedstoneBug, RedstoneBugMod
 
     @Override
     public ResourceLocation getTextureLocation(RedstoneBug entity) {
-        return ResourceLocation.fromNamespaceAndPath(ScrappedAddedAprilFools.MODID, "textures/entity/redstone_bug.png");
+        return ResourceLocation.fromNamespaceAndPath("minecraft", "textures/entity/redstone_bug.png");
     }
 }

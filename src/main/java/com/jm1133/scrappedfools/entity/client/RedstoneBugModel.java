@@ -96,7 +96,7 @@ public class RedstoneBugModel<T extends RedstoneBug> extends HierarchicalModel<T
 
     public static final ModelLayerLocation LAYER_LOCATION =
             new ModelLayerLocation(
-                    ResourceLocation.fromNamespaceAndPath(ScrappedAddedAprilFools.MODID, "redstone_bug"),
+                    ResourceLocation.fromNamespaceAndPath("minecraft", "redstone_bug"),
                     "main"
             );
 
@@ -127,7 +127,7 @@ public class RedstoneBugModel<T extends RedstoneBug> extends HierarchicalModel<T
 
     public ResourceLocation getTextureLocation(T entity) {
         return ResourceLocation.fromNamespaceAndPath(
-                ScrappedAddedAprilFools.MODID,
+                "minecraft",
                 "textures/entity/redstone_bug.png"
         );
     }

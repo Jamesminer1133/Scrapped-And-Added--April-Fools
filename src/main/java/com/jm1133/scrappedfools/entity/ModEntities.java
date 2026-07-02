@@ -13,7 +13,7 @@ public class ModEntities {
 
     public static final DeferredRegister<EntityType<?>> ENTITY_TYPES =
             DeferredRegister.create(BuiltInRegistries.ENTITY_TYPE,
-                    ScrappedAddedAprilFools.MODID);
+                    "minecraft");
 
     public static final DeferredHolder<EntityType<?>, EntityType<RedstoneBug>> REDSTONEBUG =
             ENTITY_TYPES.register("redstone_bug",

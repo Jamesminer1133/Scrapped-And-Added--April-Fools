@@ -42,6 +42,7 @@ public class ModCreativeModeTabs {
                                 output.accept(ModBlocks.TNT_SLAB.get());
                                 output.accept(ModBlocks.TORCH_OFF.get());
                                 output.accept(ModItems.REDSTONE_BUG_SPAWN_EGG.get());
+                                output.accept(ModBlocks.USB_CHARGER.get());
                                 output.accept(Blocks.COAL_BLOCK);
                             }).build());
 

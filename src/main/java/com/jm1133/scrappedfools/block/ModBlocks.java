@@ -20,7 +20,7 @@ import java.util.function.Supplier;
 
 public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
-            DeferredRegister.createBlocks(ScrappedAddedAprilFools.MODID);
+            DeferredRegister.createBlocks("minecraft");
 
 
     public static final DeferredBlock<Block> WHITE_TINTED_GLASS = registerBlock("white_tinted_glass",
@@ -214,12 +214,13 @@ public class ModBlocks {
                     .sound(SoundType.WOOD)
                     .pushReaction(PushReaction.DESTROY)));
 
-    public static final DeferredBlock<Block> USB_BLOCK = registerBlock("usb_block",
+    public static final DeferredBlock<Block> USB_CHARGER = registerBlock("usb_charger",
             () -> new PoweredBlock(BlockBehaviour.Properties.of()
                     .mapColor(MapColor.FIRE)
                     .requiresCorrectToolForDrops()
                     .strength(5.0F, 6.0F)
-                    .sound(SoundType.METAL).isRedstoneConductor(Blocks::never)));
+                    .sound(SoundType.METAL)
+                    .isRedstoneConductor((state, level, pos) -> false)));
 
 
 

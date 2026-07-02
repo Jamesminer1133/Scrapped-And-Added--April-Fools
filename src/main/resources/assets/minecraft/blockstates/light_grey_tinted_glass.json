@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "minecraft:block/light_grey_tinted_glass"
+    }
+  }
+}
