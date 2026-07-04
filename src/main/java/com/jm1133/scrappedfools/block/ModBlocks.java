@@ -1,10 +1,8 @@
 package com.jm1133.scrappedfools.block;
 
-import com.jm1133.scrappedfools.ScrappedAddedAprilFools;
 import com.jm1133.scrappedfools.TntSlab;
 import com.jm1133.scrappedfools.TorchOffBlock;
 import com.jm1133.scrappedfools.item.ModItems;
-import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;

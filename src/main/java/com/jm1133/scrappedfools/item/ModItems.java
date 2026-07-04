@@ -1,12 +1,9 @@
 package com.jm1133.scrappedfools.item;
 
-import com.jm1133.scrappedfools.ScrappedAddedAprilFools;
 import com.jm1133.scrappedfools.entity.ModEntities;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.common.DeferredSpawnEggItem;
-import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 

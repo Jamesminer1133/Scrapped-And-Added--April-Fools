@@ -1,6 +1,5 @@
 package com.jm1133.scrappedfools.entity.client;
 
-import com.jm1133.scrappedfools.ScrappedAddedAprilFools;
 import com.jm1133.scrappedfools.entity.custom.RedstoneBug;
 import net.minecraft.client.model.HierarchicalModel;
 import net.minecraft.client.model.geom.ModelLayerLocation;

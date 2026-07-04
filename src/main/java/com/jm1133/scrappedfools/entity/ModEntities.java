@@ -1,6 +1,5 @@
 package com.jm1133.scrappedfools.entity;
 
-import com.jm1133.scrappedfools.ScrappedAddedAprilFools;
 import com.jm1133.scrappedfools.entity.custom.RedstoneBug;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.entity.EntityType;
